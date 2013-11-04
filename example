@@ -1,0 +1,11 @@
+ #!/bin/bash -x
+
+if [ $1 = 'example' ]; then
+  echo "If you've entered this command, you know all there is to know."
+else
+  if [ -e $1 ]; then
+    cat ./$1
+  else
+    echo "Command '$1' not found"
+  fi
+fi

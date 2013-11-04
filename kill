@@ -1,0 +1,5 @@
+kill -9 PID	Forces a process to stop
+kill -15 PID	Terminates a process, but allows the process to trap the exit and fail gracefully
+kill -2 PID	Sends an interrupt to the process, same as CTRL+C
+
+NOTE: You must first find the PID (Process ID) you wish to kill. Try 'top' or 'ps'.

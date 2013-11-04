@@ -1,0 +1,3 @@
+mv file1 file2			Renames file1 to file2
+mv file destination/		Moves file into destination dir
+mv -f file destination/		Moves file to destination, and overwrites any existing file
