@@ -1,0 +1,3 @@
+du -h				Displays human readable disk utilization in the current folder
+du -h /some/folder		Displays human readable disk utilization in /some/folder		
+
