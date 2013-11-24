@@ -1,0 +1,3 @@
+cd your_dir		        Changes directory to the your_dir directory within your current directory  
+cd /                    	Changes directory to the root directory of your file system
+cd ~                 		Changes directory to your home directory (e.g., /Users/youruser)
