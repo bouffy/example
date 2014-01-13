@@ -1,0 +1,3 @@
+tail -f		continuous tail of the file. Good for logging.
+tall -n10000	get the last 10K files of the file.
+

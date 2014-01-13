@@ -1,0 +1,1 @@
+cat /path/to/file				Displays the contents of any file (binaries included) as terminal output

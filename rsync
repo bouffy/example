@@ -1,0 +1,1 @@
+rsync -auvz	copy files recursively preserving all magic file options, ie copying symbolic links as symbolic links, quickly, and verbosely

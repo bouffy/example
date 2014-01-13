@@ -1,0 +1,2 @@
+scp -i secret.pem user@remotehost:/1.log .			(DOWNLOAD) Brings file 1.log from remotehost to your local path
+scp /home/myfile.txt otherUser@anotherhost.com:/tmp/1.log	(UPLOAD) Copies myfile.txt to anotherhost /tmp/1.log

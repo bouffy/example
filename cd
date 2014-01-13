@@ -1,3 +1,5 @@
 cd your_dir		        Changes directory to the your_dir directory within your current directory  
 cd /                    	Changes directory to the root directory of your file system
 cd ~                 		Changes directory to your home directory (e.g., /Users/youruser)
+cd "/Some Dir/With Spaces"	Changes to target directory but permits spaces within file path
+cd /Some\ Dir/With\ Spaces	Changes to target directory but permits spaces within file path
