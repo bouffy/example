@@ -1,0 +1,5 @@
+iptables -L INPUT --line-numbers				to see which INPUT connections are allowed ordered by line number
+iptables -D INPUT 2 						to remove INPUT connection number '2' (based on the previous command example)
+iptables -A INPUT -i eth0 -p tcp --dport 443 -j ACCEPT		to open port 443 over tcp on interface eth0
+iptables -D INPUT -i eth0 -p tcp --dport 443 -j ACCEPT		to close port 443 over tcp on interface eth0
+iptables -nL							to see which ports are open. 'n' parameter is to get numbers instead of words (443 vs SSH). 'L' parameter is to List the rules in a chain
